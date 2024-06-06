@@ -13,12 +13,12 @@ const Hero = () => {
         className="absolute left-0 top-0 -z-0 w-[1503px] -translate-x-[30%] -translate-y-[25%] "
         alt=""
       />
-      <div className=" container px-2 sm:px-6 lg:px-8  md:pt-[150px] pt-[80px] relative ">
-        <div className="grid lg:grid-cols-2 sm:grid-cols-1 max-md:pt-[100px] ">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8  md:pt-[150px] pt-[80px] relative ">
+        <div className="grid lg:grid-cols-2 sm:grid-cols-1 max-md:pt-[100px] max-sm:pt-[50px] ">
           <div className="left h-full flex items-center justify-center ">
             <div className="relative ">
               <div className="slide-right">
-                <h1 className="uppercase relative md:text-[90px] text-[60px]  hero-text">
+                <h1 className="uppercase relative md:text-[90px] text-[60px] max-sm:leading-normal hero-text">
                   <span className="z-10 relative ml-0">H</span> <span>e</span>{" "}
                   <span className="relative z-10">l</span> <span>l</span>{" "}
                   <span className="relative z-10">o</span>{" "}
@@ -29,12 +29,12 @@ const Hero = () => {
                   alt=""
                 />
 
-                <h1 className="uppercase md:text-[90px] text-[50px] ">
+                <h1 className="uppercase md:text-[90px] max-sm:leading-normal text-[50px] ">
                   Everyone{" "}
                 </h1>
-                <div className="relative md:h-[150px] h-[80px]  ">
+                <div className="relative md:h-[150px] h-[80px] max-sm:leading-normal ">
                   <h1 className="uppercase md:text-[90px]  text-[50px] max-md:relative absolute overflow-y-hidden z-20  text_wrap">
-                    I`m Dico Aji{" "}
+                    I am Dico Aji{" "}
                   </h1>
                 </div>
                 <p className="text-[22px] about_me max-md:text-[16px]  max-md:mt-[20px] ">
@@ -44,7 +44,7 @@ const Hero = () => {
               <div className="mt-[40px] relative">
                 <div className="relative">
                   <a href="/">
-                    <button className="bn632-hover bn19 text-[16px] text-white cursor-pointer py-[10px] px-[50px] rounded-[50px] border-none  ">
+                    <button className="bn632-hover bn19 text-[16px] text-white cursor-pointer py-[10px] max-sm:py-[7px] px-[50px] max-sm:px-[30px] rounded-[50px] border-none  ">
                       Resume
                     </button>
                   </a>
@@ -57,7 +57,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="right max-md:pt-[150px] block max-md:hidden ">
+          <div className="right block max-md:hidden ">
             <div className="relative  ">
               <img
                 src="https://i.ibb.co.com/M1ZSDHj/vektor1.png"
@@ -103,7 +103,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="md:hidden block max-md:w-[80%] mx-auto mt-[120px] max-md:mt-[150px] relative ">
+          <div className="md:hidden block max-md:w-90%] mx-auto mt-[120px] max-md:mt-[100px] relative ">
             <img
               src="https://i.ibb.co.com/M1ZSDHj/vektor1.png"
               className="absolute left-0 top-0 w-[80%] -z-10"
@@ -114,26 +114,27 @@ const Hero = () => {
               className="absolute right-[10%] top-[15%] w-[18%] -z-10"
               alt=""
             />
-
-            <svg
-              viewBox="0 0 100 100"
-              className="curved-text absolute -right-[5%] -top-[15%] rotate z-20"
-            >
-              <defs>
-                <path
-                  id="curve"
-                  d="M10,50 A40,40 0 1,1 90,50 A40,40 0 1,1 10,50"
-                />
-              </defs>
-              <text>
-                <textPath
-                  href="#curve"
-                  className="text-curve text-white uppercase text-[10.77px] rotate"
-                >
-                  🕸 Always in Process 🕸 100% Energy for you
-                </textPath>
-              </text>
-            </svg>
+            <div className="relative ">
+              <svg
+                viewBox="0 0 100 100"
+                className="w-[80px] h-[80px] text-white absolute right-0 top-1/2 -translate-y-[100%] rotate z-20"
+              >
+                <defs>
+                  <path
+                    id="curve"
+                    d="M10,50 A40,40 0 1,1 90,50 A40,40 0 1,1 10,50"
+                  />
+                </defs>
+                <text>
+                  <textPath
+                    href="#curve"
+                    className="text-curve text-white uppercase max-sm:text-[10.4px] text-[10.77px] rotate"
+                  >
+                    🕸 Always in Process 🕸 100% Energy for you
+                  </textPath>
+                </text>
+              </svg>
+            </div>
 
             <img
               src="https://i.ibb.co.com/GCrqmsG/myphoto.png"

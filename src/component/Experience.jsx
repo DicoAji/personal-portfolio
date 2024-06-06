@@ -32,19 +32,18 @@ const Experience = () => {
           Experiences Journey
         </h2>
       </div>
-      <div className="md:mt-[100px] mt-[80px]  w-[95%] mx-auto relative slide-left  ">
+      <div className="md:mt-[100px] mt-[80px]  md:w-[95%]  mx-auto relative slide-left  ">
         {dataExperience.map((experiences, index) => (
           <div key={index} className="mt-[50px] relative flex ">
-            <div className="my-auto max-sm:hidden inline-block p-2 bg-transparent border rounded-full ">
+            <div className="my-auto max-sm:hidden inline-block p-1 bg-transparent border rounded-full ">
               <p>🔘</p>
-              {/* <img src={bagwork} className="w-[40px]" alt="" /> */}
             </div>
 
-            <div className="ml-6 ">
-              <h3 className="text-[30px] uppercase">{experiences.position}</h3>
+            <div className="md:ml-5 ml-3 ">
+              <h3 className="text-[30px]">{experiences.position}</h3>
               <p className=" text-[20px] "> 📍 {experiences.location}</p>
               <p className="text-[20px] text-cyan-600">{experiences.date}</p>
-              <p className="tex-[20px] text-justify">
+              <p className="md:text-[18px] tex-[16px] md:text-justify">
                 {experiences.description}
               </p>
             </div>

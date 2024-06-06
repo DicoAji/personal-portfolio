@@ -24,7 +24,7 @@ const About = () => {
                 Someone{`'s`} talking to me, who am I?
               </h2>
             </div>
-            <p className="text-[18px] md:leading-[190%] max-md:text-[16px] text-justify max-md:mt-[50px] text_about slide-left">
+            <p className="text-[18px] md:leading-[190%] max-md:text-[14px] text-justify max-md:mt-[50px] text_about slide-left">
               My name is Dico Aji Prasetyo, I am 22 years old, I come from
               Grobogan, Central Java. I graduated from Diponegoro University
               majoring in Informatics. I have interest in website development,
@@ -56,7 +56,7 @@ const About = () => {
         alt=""
       />
       <div className="blur-about py-[55px] md:mt-[100px] max-md:mt-[50px]  ">
-        <div className="grid md:grid-cols-3 grid-cols-1 ">
+        <div className="grid md:grid-cols-3 grid-cols-1 max-sm:space-y-[40px] ">
           <div className="text-center">
             <h3 className="text-[60px]">20+</h3>
             <p>Repository Project</p>

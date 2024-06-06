@@ -13,18 +13,6 @@ const Project = () => {
 
   useEffect(() => {
     setDataProject(data.project);
-    // console.log(data.project);
-    // const fetchData = async () => {
-    //   try {
-    //     const response = await axios.get("./../assets/data/project.json");
-    //     console.log(response.data.project);
-    //     setDataProject(response.data.project);
-    //   } catch (error) {
-    //     console.error("Error fetching data: ", error);
-    //   }
-    // };
-
-    // fetchData();
   }, []);
 
   const handleCategoryClick = (category) => {
@@ -48,7 +36,7 @@ const Project = () => {
           These are some of the projects the author has worked on
         </h2>
         {/* menu kategori */}
-        <div className="project_menu text-center mt-[80px] relative">
+        <div className="project_menu text-center mt-[80px] max-sm:mt-[50px] relative">
           <ul>
             <li onClick={() => handleCategoryClick("All")}>All</li>
             <li onClick={() => handleCategoryClick("Portfolio")}>Portfolio</li>
