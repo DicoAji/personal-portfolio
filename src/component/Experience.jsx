@@ -35,7 +35,7 @@ const Experience = () => {
       <div className="md:mt-[100px] mt-[80px]  w-[95%] mx-auto relative slide-left  ">
         {dataExperience.map((experiences, index) => (
           <div key={index} className="mt-[50px] relative flex ">
-            <div className="my-auto inline-block  p-2 bg-transparent border rounded-full ">
+            <div className="my-auto max-sm:hidden inline-block p-2 bg-transparent border rounded-full ">
               <p>🔘</p>
               {/* <img src={bagwork} className="w-[40px]" alt="" /> */}
             </div>
