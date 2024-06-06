@@ -1,0 +1,114 @@
+{
+  "project": [
+    {
+      "kategori": "portfolio",
+      "tittle": "Personal Portfolio",
+      "link": "https://dicoaji.github.io/personal-portfolio/",
+      "linkgambar": "https://i.ibb.co.com/6npT09Y/portfolio1.png"
+    },
+    {
+      "kategori": "portfolio",
+      "tittle": "Next Portfolio",
+      "link": "",
+      "linkgambar": "https://i.ibb.co.com/m6B9KCD/next-portfolio.png"
+    },
+    {
+      "kategori": "client project",
+      "tittle": "Bandikmenti Web",
+      "link": "https://bandikmenti.batangkab.go.id/",
+      "linkgambar": "https://i.ibb.co.com/Yp43B99/bandikmenti.png"
+    },
+    {
+      "kategori": "other",
+      "tittle": "Personal Notes React App",
+      "link": "https://dicoaji.github.io/aplikasi-pencatatan-React.github.io/",
+      "linkgambar": "https://i.ibb.co.com/Yyw4WRT/personalnote.png"
+    },
+    {
+      "kategori": "portfolio",
+      "tittle": "Dev Folio",
+      "link": "https://dicoaji.github.io/dev-folio/",
+      "linkgambar": "https://i.ibb.co.com/XbXJQfd/portfolio3.png"
+    },
+    {
+      "kategori": "portfolio",
+      "tittle": "Portfolio4",
+      "link": "",
+      "linkgambar": "https://i.ibb.co.com/xS5z0xn/portfolio4.png"
+    },
+    {
+      "kategori": "portfolio",
+      "tittle": "Portfolio5",
+      "link": "",
+      "linkgambar": "https://i.ibb.co.com/2yFDgkB/portfolio5.png"
+    },
+    {
+      "kategori": "portfolio",
+      "tittle": "Portfolio6",
+      "link": "https://dicoaji.github.io/dico-aji-resume/",
+      "linkgambar": "https://i.ibb.co.com/GnjPs3S/portfolio6.png"
+    },
+
+    {
+      "kategori": "client project",
+      "tittle": "Mau Lapor",
+      "link": "https://dicoaji.github.io/maulaporUI.github.io/",
+      "linkgambar": "https://i.ibb.co.com/ysdW3KN/Thumbnail.png"
+    },
+    {
+      "kategori": "other",
+      "tittle": "Bookshelf",
+      "link": "https://dicoaji.github.io/todolist.github.io/",
+      "linkgambar": "https://i.ibb.co.com/2k8F6H2/bookshelf.png"
+    },
+    {
+      "kategori": "portfolio",
+      "tittle": "Resume",
+      "link": "https://dicoaji.github.io/Dico-Aji-s/",
+      "linkgambar": "https://i.ibb.co.com/SvbQX3j/resume.png"
+    },
+
+    {
+      "kategori": "self project",
+      "tittle": "Tutorify",
+      "link": "https://dicoaji.github.io/tutorify-interface/",
+      "linkgambar": "https://i.ibb.co.com/SV1684K/tutorify.png"
+    },
+    {
+      "kategori": "self project",
+      "tittle": "Attain",
+      "link": "https://dicoaji.github.io/attain-interface/",
+      "linkgambar": "https://i.ibb.co.com/c26QFNz/attain.png"
+    },
+    {
+      "kategori": "self project",
+      "tittle": "Credia",
+      "link": "https://dicoaji.github.io/credia-interface/",
+      "linkgambar": "https://i.ibb.co.com/KzHpdh8/Frame-1.png"
+    },
+    {
+      "kategori": "data analysis",
+      "tittle": "Anime Recomendation",
+      "link": "https://drive.google.com/file/d/1uWv8irCVvUyvURTLygoL9WkDgIHbjMgi/view?usp=sharing",
+      "linkgambar": "https://i.ibb.co.com/nBFXNzt/anime.png"
+    },
+    {
+      "kategori": "data analysis",
+      "tittle": "Orage Grapefruit Classification",
+      "link": "https://drive.google.com/file/d/17XKQZKLYnU2gkRfnVV6c5lxwt0gf1tuy/view?usp=sharing",
+      "linkgambar": "https://i.ibb.co.com/1bkXSSk/grapfruit-orange.png"
+    },
+    {
+      "kategori": "data analysis",
+      "tittle": "Liver Patient Prediction",
+      "link": "https://drive.google.com/file/d/129AUC3VKA6B2DJvKEyq3oKIJs_hbppvA/view?usp=sharing",
+      "linkgambar": "https://i.ibb.co.com/nnFybQK/liver.png"
+    },
+    {
+      "kategori": "data analysis",
+      "tittle": "Rock Paper Scissor Detection",
+      "link": "https://drive.google.com/file/d/16qn6JsAIHpmF6wGLgo1KUCozNq5_iO1G/view?usp=sharing",
+      "linkgambar": "https://i.ibb.co.com/C5bvFJL/rps.png"
+    }
+  ]
+}

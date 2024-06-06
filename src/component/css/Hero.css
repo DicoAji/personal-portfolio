@@ -1,0 +1,156 @@
+* {
+  border-radius: 1px solid !important;
+}
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-animation {
+  animation: rotateAnimation 3s linear infinite;
+}
+.hero-text {
+  span {
+    font-family: "Numans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.hero {
+  h1 {
+    font-family: "Numans", sans-serif;
+  }
+  .button-explore {
+    button {
+      padding: 0;
+      margin: 0;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    button {
+      --primary-color: #ffff;
+      --hovered-color: #c84747;
+      position: relative;
+      display: flex;
+
+      font-size: 16px;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    button p {
+      margin: 0;
+      position: relative;
+      font-size: 20px;
+      color: var(--primary-color);
+    }
+
+    button::after {
+      position: absolute;
+      content: "";
+      width: 0;
+      left: 0;
+      bottom: -7px;
+      background-color: var(--hovered-color);
+      height: 2px;
+      transition: 0.3s ease-out;
+    }
+
+    button p::before {
+      position: absolute;
+      /*   box-sizing: border-box; */
+      content: "Subscribe";
+      width: 0%;
+      inset: 0;
+      color: var(--hovered-color);
+      overflow: hidden;
+      transition: 0.3s ease-out;
+    }
+
+    button:hover::after {
+      width: 100%;
+    }
+
+    button:hover p::before {
+      width: 100%;
+    }
+
+    button:hover svg {
+      transform: translateX(4px);
+      color: var(--hovered-color);
+    }
+
+    button svg {
+      color: var(--primary-color);
+      transition: 0.2s;
+      position: relative;
+      width: 15px;
+      transition-delay: 0.2s;
+    }
+  }
+}
+.bn632-hover {
+  background-size: 300% 100%;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn19 {
+  background-image: linear-gradient(
+    to right,
+    #f5ce62,
+    #e43603,
+    #fa7199,
+    #e85a19
+  );
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+.curved-text {
+  width: 90px;
+  height: 90px;
+  color: white;
+}
+.text-curve {
+  fill: white;
+}
+.text_wrap {
+  /* word-wrap: break-word; */
+  overflow-wrap: break-word;
+  /* white-space: normal; */
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 999;
+  position: relative;
+  /* text-overflow: ellipsis; */
+}
+.vertical-text {
+  writing-mode: vertical-rl; /* Bisa menggunakan vertical-rl atau vertical-lr */
+  text-orientation: upright; /* Memastikan teks tetap tegak */
+  white-space: nowrap; /* Mencegah teks terpotong menjadi beberapa baris */
+}
+.headpattern1 {
+  border-radius: 100%;
+  fill: linear-gradient(180deg, rgba(136, 253, 154, 0) 0%, #625144 100%);
+  filter: blur(630px);
+}

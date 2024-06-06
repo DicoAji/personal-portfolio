@@ -1,0 +1,39 @@
+.glasses {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.2px);
+  -webkit-backdrop-filter: blur(6.2px);
+  /* border: 1px solid rgba(255, 255, 255, 0.23); */
+}
+.arrowupriight {
+  path {
+    color: #1d1b4e;
+  }
+  background-color: white;
+  /* background: linear-gradient(90deg, #d004b8 0%, #07f7f3 100%); */
+  box-shadow: 10px 40px 30px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid #dedede; */
+}
+.project_menu {
+  ul li {
+    display: inline-block;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    padding: 5px 10px;
+    margin: 4px 7px;
+    /* border-radius: 25px; */
+    cursor: pointer;
+    font-size: 18px;
+  }
+  ul {
+    /* border: 1px solid; */
+    border-radius: 50px;
+    border: linear-gradient(90deg, #181818 0%, #e0e0e0 100%);
+  }
+  ul li:hover {
+    border-bottom: 2px solid fuchsia;
+    transition: 0.5s;
+    transition: ease-in;
+  }
+}
