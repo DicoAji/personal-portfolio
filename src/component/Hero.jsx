@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="left h-full flex items-center justify-center ">
             <div className="relative ">
               <div className="slide-right">
-                <h1 className="uppercase relative md:text-[90px] text-[50px]  hero-text">
+                <h1 className="uppercase relative md:text-[90px] text-[60px]  hero-text">
                   <span className="z-10 relative ml-0">H</span> <span>e</span>{" "}
                   <span className="relative z-10">l</span> <span>l</span>{" "}
                   <span className="relative z-10">o</span>{" "}
@@ -34,7 +34,7 @@ const Hero = () => {
                 </h1>
                 <div className="relative md:h-[150px] h-[80px]  ">
                   <h1 className="uppercase md:text-[90px]  text-[50px] max-md:relative absolute overflow-y-hidden z-20  text_wrap">
-                    I Am Dico Aji{" "}
+                    I`m Dico Aji{" "}
                   </h1>
                 </div>
                 <p className="text-[22px] about_me max-md:text-[16px]  max-md:mt-[20px] ">

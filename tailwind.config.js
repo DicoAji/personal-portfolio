@@ -16,7 +16,7 @@ export default {
           background: "linear-gradient(90deg, #f4c25b 0%, #e53f08 100%)",
         },
         ".container": {
-          width: "90%",
+          width: "95%",
           margin: "0 auto",
         },
       };
