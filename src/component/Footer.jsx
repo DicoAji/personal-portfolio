@@ -81,7 +81,7 @@ const Footer = () => {
                   </li>
                 </ul>
                 <div className="social_media text-[40px] gap-3 mt-2">
-                  <a href="https://www.linkedin.com/in/dico-aji-prasetyo-154318223/">
+                  <a href="https://www.linkedin.com/in/dicoaji/">
                     <FontAwesomeIcon
                       icon={faLinkedinIn}
                       className="linkedin icon hover:bg-blue-500 p-2 "
