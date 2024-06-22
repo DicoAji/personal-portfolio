@@ -89,7 +89,7 @@ const Skills = () => {
         alt=""
       />
       <div className="max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto relative ">
-        <h2 className="text-center w-[75%] mx-auto md:text-[60px] max-md:text-[30px] slide-left">
+        <h2 className="text-center w-[75%] mx-auto md:text-[60px] max-md:text-[30px] ">
           These are some of the tools mastered by the author
         </h2>
         <div className="md:w-[80%] w-[95%] mx-auto mt-[50px] ">

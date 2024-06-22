@@ -1,12 +1,12 @@
 // import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import CSS untuk carousel
-// import { Carousel } from "react-responsive-carousel";
 import ballpatternblue from "./../assets/img/pattern/ballpeternorange.svg";
 import patterngreen from "./../assets/img/pattern/patterngreen.svg";
 import "./css/Experience.css";
 import { useEffect, useState } from "react";
-
+import ball from "./../assets/img/ball.png";
 import data from "./../assets/data/experience.json";
+import patternBlue from "./../assets/img/pattern-blue.png";
 
 const Experience = () => {
   const [dataExperience, setDataExperinece] = useState([]);
@@ -32,7 +32,7 @@ const Experience = () => {
           Experiences Journey
         </h2>
       </div>
-      <div className="md:mt-[100px] mt-[80px]  md:w-[95%]  mx-auto relative slide-left  ">
+      <div className="md:mt-[100px] mt-[80px]  md:w-[95%]  mx-auto relative  ">
         {dataExperience.map((experiences, index) => (
           <div key={index} className="mt-[50px] relative flex ">
             <div className="my-auto max-sm:hidden inline-block p-1 bg-transparent border rounded-full ">
@@ -52,19 +52,19 @@ const Experience = () => {
       </div>
 
       <img
-        src="https://i.ibb.co.com/j6K1j69/pattern1.png"
+        src={patternBlue}
         className="absolute max-md:hidden top-[10%] left-[5%] w-[37px]  "
         alt=""
       />
       <div className="absolute right-0 top-0">
         <div className="relative">
           <img
-            src="https://i.ibb.co.com/CHYG7Mg/ball.png"
+            src={ball}
             className="max-md:hidden right-0 top-0 max-md:-top-[5%] z-10 w-[367px] "
             alt=""
           />
           <img
-            src="https://i.ibb.co.com/CHYG7Mg/ball.png"
+            src={ball}
             className=" absolute right-[0px] top-0 max-md:-top-[5%] z-10 w-[150px] "
             alt=""
           />

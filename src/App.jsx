@@ -39,7 +39,7 @@ function App() {
     textPathElement.classList.add("rotate-animation");
   }, []);
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden max-w-[1990px] mx-auto">
       <Navbar />
       <Hero />
       <About />

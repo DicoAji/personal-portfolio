@@ -37,15 +37,15 @@ const Navbar = () => {
   return (
     <Disclosure
       as="nav"
-      className={`navbar z-50 max-md:backdrop-blur-[15px] ${
+      className={`navbar z-50 max-md:backdrop-blur-[15px]  ${
         isScrolled ? "scrolled" : ""
       }`}
     >
       {({ open }) => (
         <>
-          <div className="space-y-[36px] ">
+          <div className="">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
-              <div className="relative flex items-center justify-between">
+              <div className="relative flex sm:items-center justify-between ">
                 <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
                   {/* Mobile menu button*/}
                   <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400">
@@ -58,9 +58,9 @@ const Navbar = () => {
                     )}
                   </Disclosure.Button>
                 </div>
-                <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-end ">
-                  <div className="flex flex-shrink-0 items-center ">
-                    <h2 className="text-[24px] font-bold text-white">
+                <div className="flex flex-1 items-center sm:justify-center  md:items-stretch ">
+                  <div className="flex flex-shrink-0 sm:items-center ">
+                    <h2 className="text-[24px] font-semibold max-sm:font-normal text-white">
                       DICO AJI
                     </h2>
                   </div>

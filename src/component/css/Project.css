@@ -32,7 +32,10 @@
     border: linear-gradient(90deg, #181818 0%, #e0e0e0 100%);
   }
   ul li:hover {
-    border-bottom: 2px solid fuchsia;
+    /* border-bottom: 2px solid fuchsia; */
+    /* box shadow solid 2 px bottom fuchsia */
+    box-shadow: 0 2px 0px fuchsia;
+    color: fuchsia;
     transition: 0.5s;
     transition: ease-in;
   }

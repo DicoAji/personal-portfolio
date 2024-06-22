@@ -4,6 +4,9 @@ import "./css/Navbar.css";
 import pattern1 from "./../assets/img/pattern/ballpatternyellow.svg";
 import ballpeternblue from "./../assets/img/pattern/ballpeternblue.svg";
 import petternyellow from "./../assets/img/pattern/ballpatternyellow2.svg";
+import hero from "./../assets/img/hero.png";
+import ball from "./../assets/img/ball.png";
+import vektor1 from "./../assets/img/vektor.png";
 
 const Hero = () => {
   return (
@@ -43,14 +46,14 @@ const Hero = () => {
               </div>
               <div className="mt-[40px] relative">
                 <div className="relative">
-                  <a href="/">
-                    <button className="bn632-hover bn19 text-[16px] text-white cursor-pointer py-[10px] max-sm:py-[7px] px-[50px] max-sm:px-[30px] rounded-[50px] border-none  ">
+                  <a href="https://drive.google.com/uc?export=download&id=1Hp2gjih5IYlWFBuXHs2W7sGP_9k6GrGZ">
+                    <button className="bn632-hover bn19 text-[16px] text-white cursor-pointer py-[10px] max-sm:py-[7px] px-[50px] max-sm:px-[30px] rounded-[50px] border-none">
                       Resume
                     </button>
                   </a>
                 </div>
                 <img
-                  src="https://i.ibb.co.com/CHYG7Mg/ball.png"
+                  src={ball}
                   className="absolute left-0 w-[399px] max-sm:hidden -translate-x-[50%] -z-40 -translate-y-[40%]"
                   alt=""
                 />
@@ -58,20 +61,20 @@ const Hero = () => {
             </div>
           </div>
           <div className="right block max-md:hidden ">
-            <div className="relative  ">
+            <div className="relative ">
               <img
-                src="https://i.ibb.co.com/M1ZSDHj/vektor1.png"
+                src={vektor1}
                 className="absolute max-lg:hidden w-[400px] top-[50px] max-md:hidden -translate-x-[20px] -z-[1]"
                 alt=""
               />
 
               <img
-                src="https://i.ibb.co.com/M1ZSDHj/vektor1.png"
+                src={vektor1}
                 className="absolute w-[70px] max-lg:hidden translate-y-[60%] right-[28%] "
                 alt=""
               />
               <img
-                src="https://i.ibb.co.com/GCrqmsG/myphoto.png"
+                src={hero}
                 className="absolute w-[550px] max-lg:hidden -translate-y-[50px] -translate-x-[70px] top-0 right-0 rounded-[550px] z-20"
                 alt=""
               />

@@ -3,9 +3,48 @@ import bluered from "./../assets/img/pattern/bluered.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpLong } from "@fortawesome/free-solid-svg-icons";
 import "./css/Project.css";
-// import axios from "axios";
 import { useEffect, useState } from "react";
 import data from "./../assets/data/project.json";
+import lineRounded from "./../assets/img/line-rounded.png";
+import halfBall from "./../assets/img/half-ball.png";
+
+import bandikmenti from "./../assets/img/project/bandikmenti.png"; // dan seterusnya untuk setiap gambar yang Anda butuhkan
+import anime from "./../assets/img/project/anime.png";
+import bookshelf from "./../assets/img/project/bookshelf.png";
+import grapefruitOrange from "./../assets/img/project/grapefruit_orange.png";
+import liver from "./../assets/img/project/liver.png";
+import maulapor from "./../assets/img/project/maulapor.png";
+import personalNotes from "./../assets/img/project/personal_notes.png";
+import portfolio1 from "./../assets/img/project/portfolio1.png";
+import porfolio2 from "./../assets/img/project/portfolio2.png";
+import porfolio3 from "./../assets/img/project/portfolio3.png";
+import porfolio4 from "./../assets/img/project/portfolio4.png";
+import rps from "./../assets/img/project/rps.png";
+import attain from "./../assets/img/project/attain.png";
+import tutorify from "./../assets/img/project/tutorify.png";
+import nextPortfolio from "./../assets/img/project/next-portfolio.png";
+import credia from "./../assets/img/project/credia.png";
+import soreeCafe from "./../assets/img/project/soree-cafe.png";
+
+const images = {
+  "bandikmenti.png": bandikmenti,
+  "anime.png": anime,
+  "bookshelf.png": bookshelf,
+  "grapefruit_orange.png": grapefruitOrange,
+  "liver.png": liver,
+  "maulapor.png": maulapor,
+  "personal_notes.png": personalNotes,
+  "portfolio1.png": portfolio1,
+  "portfolio2.png": porfolio2,
+  "portfolio3.png": porfolio3,
+  "portfolio4.png": porfolio4,
+  "rps.png": rps,
+  "attain.png": attain,
+  "tutorify.png": tutorify,
+  "next-portfolio.png": nextPortfolio,
+  "credia.png": credia,
+  "soree-cafe.png": soreeCafe,
+};
 
 const Project = () => {
   const [project, setDataProject] = useState([]);
@@ -28,11 +67,11 @@ const Project = () => {
     <div className="project relative w-full overflow-hidden " id="project">
       <div className=" max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[150px] max-md:mt-[100px] relative w-full ">
         <img
-          src="https://i.ibb.co.com/f89BtrK/rounded.png"
+          src={lineRounded}
           className="absolute max-md:w-[70px] md:left-0 max-md:-left-[8%] -translate-y-[40%] translate-x-[10%] max-md:-top-[3%]"
           alt=""
         />
-        <h2 className="md:text-[60px] max-md:text-[30px] text-center slide-right">
+        <h2 className="md:text-[60px] max-md:text-[30px] text-center ">
           These are some of the projects the author has worked on
         </h2>
         {/* menu kategori */}
@@ -58,8 +97,8 @@ const Project = () => {
 
         <div className="max-md:w-[90%] max-md:mx-auto grid md:grid-cols-3 grid-cols-1 mt-[50px] gap-[30px]  relative">
           {filteredProjects.map((project, index) => (
-            <div key={index} className="relative">
-              <img src={project.linkgambar} alt={project.tittle} />
+            <div key={index} className="relative bg-white">
+              <img src={images[project.linkgambar]} alt={project.tittle} />
               <a href={project.link}>
                 <FontAwesomeIcon
                   icon={faArrowUpLong}
@@ -80,8 +119,8 @@ const Project = () => {
         alt=""
       />
       <img
-        src="https://i.ibb.co.com/CHYG7Mg/ball.png"
-        className="absolute left-0 -translate-x-[50%] top-[50%] -z-10 slide-right"
+        src={halfBall}
+        className="absolute left-0  top-[50%] -z-10 "
         alt=""
       />
     </div>

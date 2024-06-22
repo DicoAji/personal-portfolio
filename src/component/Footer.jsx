@@ -13,7 +13,7 @@ import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <div className="footer blur_footer -z-1" id="footer">
-      <div className="max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[200px] max-md:mt-[100px] md:pb-[50px] relative z-50 slide-top">
+      <div className="max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[200px] max-md:mt-[100px] md:pb-[50px] relative z-50 ">
         <div className="grid grid-cols-1 md:grid-cols-2 ">
           <div className="">
             <h2 className="text-[30px] uppercase">
