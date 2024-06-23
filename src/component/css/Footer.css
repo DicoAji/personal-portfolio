@@ -20,9 +20,12 @@
   }
   .nav_link {
     a {
-      font-size: 16px;
       margin-top: 8px;
       display: block;
+      width: fit-content;
+    }
+    a:hover {
+      box-shadow: 0 2px 0px white;
     }
   }
   .footer-icon {

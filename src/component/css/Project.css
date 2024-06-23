@@ -9,9 +9,9 @@
 }
 .arrowupriight {
   path {
-    color: #1d1b4e;
+    color: white;
   }
-  background-color: white;
+  background-color: black;
   /* background: linear-gradient(90deg, #d004b8 0%, #07f7f3 100%); */
   box-shadow: 10px 40px 30px rgba(0, 0, 0, 0.1);
   /* border: 1px solid #dedede; */
@@ -24,8 +24,8 @@
     margin: 4px 7px;
     /* border-radius: 25px; */
     cursor: pointer;
-    font-size: 18px;
   }
+
   ul {
     /* border: 1px solid; */
     border-radius: 50px;

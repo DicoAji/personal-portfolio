@@ -1,5 +1,4 @@
 // import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import CSS untuk carousel
 import ballpatternblue from "./../assets/img/pattern/ballpeternorange.svg";
 import patterngreen from "./../assets/img/pattern/patterngreen.svg";
 import "./css/Experience.css";
@@ -40,10 +39,17 @@ const Experience = () => {
             </div>
 
             <div className="md:ml-5 ml-3 ">
-              <h3 className="text-[30px]">{experiences.position}</h3>
-              <p className=" text-[20px] "> 📍 {experiences.location}</p>
-              <p className="text-[20px] text-cyan-600">{experiences.date}</p>
-              <p className="md:text-[18px] tex-[16px] md:text-justify">
+              <h3 className="text-[30px] max-sm:text-[24px]">
+                {experiences.position}
+              </h3>
+              <p className=" text-[20px] max-sm:text-[16px]">
+                {" "}
+                📍 {experiences.location}
+              </p>
+              <p className="text-[20px] text-cyan-600 max-sm:text-[16px]">
+                {experiences.date}
+              </p>
+              <p className="md:text-[18px] text-[14px] md:text-justify">
                 {experiences.description}
               </p>
             </div>

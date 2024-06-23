@@ -25,6 +25,7 @@ function App() {
       duration: 3000,
       origin: "right",
       distance: "300px",
+      reset: true,
     });
     ScrollReveal().reveal(".slide-top", {
       duration: 3000,

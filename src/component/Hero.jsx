@@ -5,7 +5,6 @@ import pattern1 from "./../assets/img/pattern/ballpatternyellow.svg";
 import ballpeternblue from "./../assets/img/pattern/ballpeternblue.svg";
 import petternyellow from "./../assets/img/pattern/ballpatternyellow2.svg";
 import hero from "./../assets/img/hero.png";
-import ball from "./../assets/img/ball.png";
 import vektor1 from "./../assets/img/vektor.png";
 
 const Hero = () => {
@@ -20,11 +19,9 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 sm:grid-cols-1 max-md:pt-[100px] max-sm:pt-[50px] ">
           <div className="left h-full flex items-center justify-center ">
             <div className="relative ">
-              <div className="slide-right">
-                <h1 className="uppercase relative md:text-[90px] text-[60px] max-sm:leading-normal hero-text">
-                  <span className="z-10 relative ml-0">H</span> <span>e</span>{" "}
-                  <span className="relative z-10">l</span> <span>l</span>{" "}
-                  <span className="relative z-10">o</span>{" "}
+              <div className="slide-left">
+                <h1 className="uppercase relative md:text-[90px] text-[50px] max-sm:leading-[1.2] hero-text">
+                  Hello
                 </h1>
                 <img
                   src={vektor}
@@ -40,7 +37,7 @@ const Hero = () => {
                     I am Dico Aji{" "}
                   </h1>
                 </div>
-                <p className="text-[22px] about_me max-md:text-[16px]  max-md:mt-[20px] ">
+                <p className="text-[22px] about_me max-md:text-[16px] max-md:mt-[10px] ">
                   Front End Developer, Web Developer, UI/UX Design
                 </p>
               </div>
@@ -52,11 +49,6 @@ const Hero = () => {
                     </button>
                   </a>
                 </div>
-                <img
-                  src={ball}
-                  className="absolute left-0 w-[399px] max-sm:hidden -translate-x-[50%] -z-40 -translate-y-[40%]"
-                  alt=""
-                />
               </div>
             </div>
           </div>

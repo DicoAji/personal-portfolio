@@ -6,7 +6,6 @@ import ballpatternorange from "./../assets/img/pattern/ballpeternorange.svg";
 import lineRounded from "./../assets/img/line-rounded.png";
 import patternYelllow from "./../assets/img/pattern-yellow.png";
 import "./css/About.css";
-
 import { useEffect, useRef } from "react";
 import { CountUp } from "countup.js";
 

@@ -16,10 +16,10 @@ const Footer = () => {
       <div className="max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[200px] max-md:mt-[100px] md:pb-[50px] relative z-50 ">
         <div className="grid grid-cols-1 md:grid-cols-2 ">
           <div className="">
-            <h2 className="text-[30px] uppercase">
+            <h2 className="text-[30px] uppercase max-sm:text-[18px]">
               Dico Aji Personal Portfolio
             </h2>
-            <p className="mt-3 text-[16px] ">
+            <p className="sm:mt-3 text-[16px] max-sm:text-[14px] ">
               This website was developed using :
             </p>
             <div className="footer-deploy mt-3">
@@ -44,8 +44,10 @@ const Footer = () => {
           <div className=" grid md:grid-cols-2 grid-cols-2 max-md:mt-[40px]">
             <div className="flex justify-end max-md:justify-start ">
               <div className="">
-                <h3 className="uppercase text-[28px]">Navigation</h3>
-                <ul className="mt-6 nav_link">
+                <h3 className="uppercase text-[28px] max-sm:text-[18px]">
+                  Navigation
+                </h3>
+                <ul className="mt-6 nav_link max-sm:text-[14px] text-[16px] ">
                   <li>
                     <a href="#home">{">"} Home</a>
                   </li>
@@ -66,8 +68,10 @@ const Footer = () => {
             </div>
             <div className="flex justify-end max-md:justify-start">
               <div className="">
-                <h2 className="text-[28px] uppercase">Contact Me</h2>
-                <ul className="mt-6">
+                <h2 className="text-[28px] uppercase max-sm:text-[18px]">
+                  Contact Me
+                </h2>
+                <ul className="mt-6 max-sm:text-[14px]">
                   <li>
                     <a href="https://www.google.com/maps/place/Kec.+Kradenan,+Kabupaten+Grobogan,+Jawa+Tengah/@-7.1727291,111.0493816,12z/data=!3m1!4b1!4m6!3m5!1s0x2e7753592ca591c7:0x4027a76e352ef70!8m2!3d-7.1490283!4d111.1433863!16s%2Fg%2F11b_2nym12?hl=id&entry=ttu">
                       <FontAwesomeIcon icon={faLocationDot} /> Kradenan,

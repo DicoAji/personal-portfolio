@@ -1,13 +1,10 @@
 import ballpattern2 from "./../assets/img/pattern/ballpatternyellow2.svg";
 import bluered from "./../assets/img/pattern/bluered.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpLong } from "@fortawesome/free-solid-svg-icons";
 import "./css/Project.css";
 import { useEffect, useState } from "react";
 import data from "./../assets/data/project.json";
 import lineRounded from "./../assets/img/line-rounded.png";
 import halfBall from "./../assets/img/half-ball.png";
-
 import bandikmenti from "./../assets/img/project/bandikmenti.png"; // dan seterusnya untuk setiap gambar yang Anda butuhkan
 import anime from "./../assets/img/project/anime.png";
 import bookshelf from "./../assets/img/project/bookshelf.png";
@@ -77,18 +74,42 @@ const Project = () => {
         {/* menu kategori */}
         <div className="project_menu text-center mt-[80px] max-sm:mt-[50px] relative">
           <ul>
-            <li onClick={() => handleCategoryClick("All")}>All</li>
-            <li onClick={() => handleCategoryClick("Portfolio")}>Portfolio</li>
-            <li onClick={() => handleCategoryClick("Self Project")}>
+            <li
+              className="max-sm:text-[14px] text-[16px]"
+              onClick={() => handleCategoryClick("All")}
+            >
+              All
+            </li>
+            <li
+              className="max-sm:text-[14px] text-[16px]"
+              onClick={() => handleCategoryClick("Portfolio")}
+            >
+              Portfolio
+            </li>
+            <li
+              className="max-sm:text-[14px] text-[16px]"
+              onClick={() => handleCategoryClick("Self Project")}
+            >
               Self Project
             </li>
-            <li onClick={() => handleCategoryClick("Client Project")}>
+            <li
+              className="max-sm:text-[14px] text-[16px]"
+              onClick={() => handleCategoryClick("Client Project")}
+            >
               Client Project
             </li>
-            <li onClick={() => handleCategoryClick("Data Analysis")}>
+            <li
+              className="max-sm:text-[14px] text-[16px]"
+              onClick={() => handleCategoryClick("Data Analysis")}
+            >
               Data Analysis
             </li>
-            <li onClick={() => handleCategoryClick("Other")}>Other</li>
+            <li
+              className="max-sm:text-[14px] text-[16px]"
+              onClick={() => handleCategoryClick("Other")}
+            >
+              Other
+            </li>
           </ul>
           <div className="backdrop-blur-0 -z-10 absolute top-[0%] -translate-y-[40%] translate-x-[50%] left-0 ">
             <img src={bluered} className="" alt="" />
@@ -97,17 +118,17 @@ const Project = () => {
 
         <div className="max-md:w-[90%] max-md:mx-auto grid md:grid-cols-3 grid-cols-1 mt-[50px] gap-[30px]  relative">
           {filteredProjects.map((project, index) => (
-            <div key={index} className="relative bg-white">
-              <img src={images[project.linkgambar]} alt={project.tittle} />
+            <div key={index} className="relative bg-black">
               <a href={project.link}>
-                <FontAwesomeIcon
-                  icon={faArrowUpLong}
-                  className="absolute top-[4%] right-[4%] arrowupriight  rotate-45 py-4 px-5  rounded-full "
+                <img
+                  src={images[project.linkgambar]}
+                  alt={project.tittle}
+                  className="w-full"
                 />
+                <h3 className="text-[16px] absolute bottom-0 left-0 bg-black text-white px-3 py-1 ">
+                  {project.tittle}
+                </h3>
               </a>
-              <h3 className="text-[16px] absolute bottom-0 left-0 bg-white text-black px-3 py-1 ">
-                {project.tittle}
-              </h3>
             </div>
           ))}
         </div>
