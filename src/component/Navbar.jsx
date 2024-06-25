@@ -46,9 +46,9 @@ const Navbar = () => {
           <div className="">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
               <div className="relative flex sm:items-center justify-between ">
-                <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
+                <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400">
+                  <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md  text-gray-400">
                     <span className="absolute -inset-0.5" />
                     <span className="sr-only">Open main menu</span>
                     {open ? (
@@ -60,11 +60,11 @@ const Navbar = () => {
                 </div>
                 <div className="flex flex-1 items-center sm:justify-center  md:items-stretch ">
                   <div className="flex flex-shrink-0 sm:items-center ">
-                    <h2 className="text-[24px] font-semibold max-sm:font-normal text-white">
+                    <h2 className="sm:text-[24px] text-[18px] font-semibold max-sm:font-normal text-white">
                       DICO AJI
                     </h2>
                   </div>
-                  <div className="hidden md:ml-6 md:block w-full backdrop-blur-[15px]">
+                  <div className="hidden md:ml-6 sm:block w-full backdrop-blur-[15px]">
                     <div className="ml-auto"></div>
                     <div className="flex space-x-4 menu_navbar  content-end w-full">
                       <div className="mr-auto"></div>
@@ -79,7 +79,7 @@ const Navbar = () => {
                             href={item.href}
                             className={classNames(
                               item.current
-                                ? "hover:bg-custom-gradient  text-white rounded-[40px] py-[15px] px-[15px] "
+                                ? "hover:bg-custom-gradient  max-sm:text-[16px]  text-white rounded-[40px] py-[15px] px-[15px] "
                                 : " hover:bg-custom-gradient  rounded-[40px] hover:text-white py-[15px] px-[15px]",
                               " px-3 py-2 text-sm font-medium"
                             )}
@@ -95,8 +95,8 @@ const Navbar = () => {
               </div>
             </div>
 
-            <Disclosure.Panel className="md:hidden">
-              <div className="space-y-1 px-2 pb-3 pt-2">
+            <Disclosure.Panel className="sm:hidden">
+              <div className="space-y-1  pb-3 pt-2">
                 {navigation.map((item) => (
                   <Disclosure.Button
                     key={item.name}
@@ -104,9 +104,9 @@ const Navbar = () => {
                     href={item.href}
                     className={classNames(
                       item.current
-                        ? "hover:bg-custom-gradient  text-white rounded-[40px] text-center"
-                        : "hover:bg-custom-gradient hover:text-white rounded-[40px] text-center",
-                      "block  px-3 py-2 text-base font-medium"
+                        ? "hover:bg-custom-gradient  text-white max-sm:text-[12px] rounded-[40px] text-center"
+                        : "hover:bg-custom-gradient hover:text-white max-sm:text-[12px]  rounded-[40px] text-center",
+                      "block   py-1 text-base font-medium"
                     )}
                     aria-current={item.current ? "page" : undefined}
                   >

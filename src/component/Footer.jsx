@@ -13,27 +13,30 @@ import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <div className="footer blur_footer -z-1" id="footer">
-      <div className="max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[200px] max-md:mt-[100px] md:pb-[50px] relative z-50 ">
+      <div className="max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto sm:mt-[200px] mt-[70px] md:pb-[50px] relative z-50 ">
         <div className="grid grid-cols-1 md:grid-cols-2 ">
           <div className="">
             <h2 className="text-[30px] uppercase max-sm:text-[18px]">
               Dico Aji Personal Portfolio
             </h2>
-            <p className="sm:mt-3 text-[16px] max-sm:text-[14px] ">
+            <p className="sm:mt-3 mt-6 text-[16px] max-sm:text-[14px] ">
               This website was developed using :
             </p>
             <div className="footer-deploy mt-3">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png"
                 alt=""
+                className="w-[25px]"
               />
               <img
                 src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
                 alt=""
+                className="w-[25px]"
               />
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png"
                 alt=""
+                className="w-[25px]"
               />
               {/* <img
                 src="https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png"
@@ -47,7 +50,7 @@ const Footer = () => {
                 <h3 className="uppercase text-[28px] max-sm:text-[18px]">
                   Navigation
                 </h3>
-                <ul className="mt-6 nav_link max-sm:text-[14px] text-[16px] ">
+                <ul className="mt-6 nav_link max-sm:text-[12px] text-[16px] ">
                   <li>
                     <a href="#home">{">"} Home</a>
                   </li>
@@ -71,7 +74,7 @@ const Footer = () => {
                 <h2 className="text-[28px] uppercase max-sm:text-[18px]">
                   Contact Me
                 </h2>
-                <ul className="mt-6 max-sm:text-[14px]">
+                <ul className="mt-6 max-sm:text-[12px] space-y-[5px]">
                   <li>
                     <a href="https://www.google.com/maps/place/Kec.+Kradenan,+Kabupaten+Grobogan,+Jawa+Tengah/@-7.1727291,111.0493816,12z/data=!3m1!4b1!4m6!3m5!1s0x2e7753592ca591c7:0x4027a76e352ef70!8m2!3d-7.1490283!4d111.1433863!16s%2Fg%2F11b_2nym12?hl=id&entry=ttu">
                       <FontAwesomeIcon icon={faLocationDot} /> Kradenan,
@@ -121,7 +124,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center mt-[20px] border-t-[0.1px] border-slate-400 py-[20px]">
+      <div className="text-center sm:text-[14px] text-[12px] mt-[20px] border-t-[0.1px] border-slate-400 py-[5px]">
         {/* <p>This web build with react, tailwind</p> */}
         <p>© 2024 Dico Aji Prasetyo™. All Rights Reserved.</p>
       </div>

@@ -59,13 +59,13 @@ const About = () => {
       </div>
       <div className=" max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[200px] max-md:mt-[100px] relative ">
         <div className="relative">
-          <div className="grid md:grid-cols-2 grid-flow-cols-1 ">
-            <div className="w-[80%]">
-              <h2 className="md:text-[60px] text-[30px] ">
-                Someone{`'s`} talking to me, who am I?
+          <div className="grid lg:grid-cols-2 grid-flow-cols-1 ">
+            <div className=" h-fit my-auto w-full">
+              <h2 className="md:text-[60px] text-[26px] w-fit uppercase max-sm:mx-auto border-b border-fuchsia-600">
+                ABOOUT ME
               </h2>
             </div>
-            <p className="text-[18px] md:leading-[190%] max-md:text-[14px] text-justify max-md:mt-[50px] text_about ">
+            <p className="sm:text-[16px] md:leading-[190%] text-[12px] text-justify mt-[80px] max-sm:mt-[50px]  ">
               My name is Dico Aji Prasetyo, I am 22 years old, I come from
               Grobogan, Central Java. I graduated from Diponegoro University
               majoring in Informatics. I have interest in website development,
@@ -80,7 +80,7 @@ const About = () => {
           </div>
           <img
             src={patternYelllow}
-            className="max-md:w-[150px] max-md:mt-[50px]"
+            className="max-md:w-[70px] md:mt-[60px] max-md:mt-[50px]"
             alt=""
           />
         </div>
@@ -93,19 +93,19 @@ const About = () => {
 
       <img
         src={lineRounded}
-        className="absolute max-md:w-[90px] -right-[4%] md:top-[30%] max-md:top-[5%]"
+        className="absolute max-md:w-[70px] -right-[4%] md:top-[30%] max-md:top-[5%]"
         alt=""
       />
-      <div className="blur-about py-[55px] md:mt-[100px] max-md:mt-[50px]  ">
-        <div className="grid md:grid-cols-3 grid-cols-1 max-sm:space-y-[40px] ">
+      <div className="blur-about sm:py-[55px] py-[20px] md:mt-[100px] max-md:mt-[50px]  ">
+        <div className="grid md:grid-cols-3 grid-cols-1 max-sm:space-y-[30px] ">
           <div className="text-center">
-            <h3 className="text-[60px] flex mx-auto w-fit">
+            <h3 className="sm:text-[60px] text-[40px] flex mx-auto w-fit">
               <Counter endValue={20} decimalPlaces={0} />+
             </h3>
             <p>Repository Project</p>
           </div>
           <div className="text-center max-md:mt-[20px] ">
-            <h3 className="text-[60px] flex  w-fit mx-auto">
+            <h3 className="sm:text-[60px] text-[40px] flex w-fit mx-auto">
               <Counter
                 className="inline-block"
                 endValue={3.6}
@@ -116,7 +116,7 @@ const About = () => {
             <p>Grade Point Average</p>
           </div>
           <div className="text-center max-md:mt-[20px]">
-            <h3 className="text-[60px] flex mx-auto w-fit">
+            <h3 className="sm:text-[60px] text-[40px] flex mx-auto w-fit">
               <Counter endValue={25} decimalPlaces={0} />+
             </h3>
             <p>Design Project</p>

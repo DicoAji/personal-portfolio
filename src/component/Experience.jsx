@@ -16,7 +16,7 @@ const Experience = () => {
 
   return (
     <div
-      className="experience relative max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:pt-[200px] max-md:pt-[100px]  "
+      className="experience relative max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:pt-[200px] max-md:pt-[60px]  "
       id="experience"
     >
       <div className="relative">
@@ -27,29 +27,28 @@ const Experience = () => {
         />
       </div>
       <div className="flex justify-center">
-        <h2 className="w-fit md:text-[60px] text-[30px] pb-[5px] border-b border-fuchsia-600">
+        <h2 className="w-fit md:text-[60px] text-[26px] pb-[5px] uppercase border-b border-fuchsia-600">
           Experiences Journey
         </h2>
       </div>
-      <div className="md:mt-[100px] mt-[80px]  md:w-[95%]  mx-auto relative  ">
+      <div className="md:mt-[100px] mt-[50px]  md:w-[95%]  mx-auto relative  ">
         {dataExperience.map((experiences, index) => (
-          <div key={index} className="mt-[50px] relative flex ">
+          <div key={index} className="sm:mt-[50px] mt-[30px] relative flex ">
             <div className="my-auto max-sm:hidden inline-block p-1 bg-transparent border rounded-full ">
               <p>🔘</p>
             </div>
-
             <div className="md:ml-5 ml-3 ">
-              <h3 className="text-[30px] max-sm:text-[24px]">
+              <h3 className="text-[30px] max-sm:text-[20px]">
                 {experiences.position}
               </h3>
-              <p className=" text-[20px] max-sm:text-[16px]">
+              <p className=" text-[18px] max-sm:text-[12px]">
                 {" "}
                 📍 {experiences.location}
               </p>
-              <p className="text-[20px] text-cyan-600 max-sm:text-[16px]">
+              <p className="text-[18px] text-cyan-600 max-sm:text-[12px]">
                 {experiences.date}
               </p>
-              <p className="md:text-[18px] text-[14px] md:text-justify">
+              <p className="md:text-[16px] text-[12px] md:text-justify">
                 {experiences.description}
               </p>
             </div>

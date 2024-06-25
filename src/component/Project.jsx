@@ -3,7 +3,6 @@ import bluered from "./../assets/img/pattern/bluered.svg";
 import "./css/Project.css";
 import { useEffect, useState } from "react";
 import data from "./../assets/data/project.json";
-import lineRounded from "./../assets/img/line-rounded.png";
 import halfBall from "./../assets/img/half-ball.png";
 import bandikmenti from "./../assets/img/project/bandikmenti.png"; // dan seterusnya untuk setiap gambar yang Anda butuhkan
 import anime from "./../assets/img/project/anime.png";
@@ -62,20 +61,15 @@ const Project = () => {
   });
   return (
     <div className="project relative w-full overflow-hidden " id="project">
-      <div className=" max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[150px] max-md:mt-[100px] relative w-full ">
-        <img
-          src={lineRounded}
-          className="absolute max-md:w-[70px] md:left-0 max-md:-left-[8%] -translate-y-[40%] translate-x-[10%] max-md:-top-[3%]"
-          alt=""
-        />
-        <h2 className="md:text-[60px] max-md:text-[30px] text-center ">
-          These are some of the projects the author has worked on
+      <div className=" max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[150px] max-md:mt-[60px] relative w-full ">
+        <h2 className="md:text-[60px] max-md:text-[26px] text-center uppercase border-b border-fuchsia-600 w-fit mx-auto">
+          MY PROJECT
         </h2>
         {/* menu kategori */}
-        <div className="project_menu text-center mt-[80px] max-sm:mt-[50px] relative">
+        <div className="project_menu text-center mt-[80px] max-sm:mt-[30px] relative">
           <ul>
             <li
-              className="max-sm:text-[14px] text-[16px]"
+              className="max-sm:text-[14px] text-[16px] "
               onClick={() => handleCategoryClick("All")}
             >
               All
@@ -105,7 +99,7 @@ const Project = () => {
               Data Analysis
             </li>
             <li
-              className="max-sm:text-[14px] text-[16px]"
+              className="max-sm:text-[14px] text-[16px] "
               onClick={() => handleCategoryClick("Other")}
             >
               Other
@@ -116,7 +110,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="max-md:w-[90%] max-md:mx-auto grid md:grid-cols-3 grid-cols-1 mt-[50px] gap-[30px]  relative">
+        <div className="max-md:w-[100%] max-md:mx-auto grid md:grid-cols-3 grid-cols-2 mt-[50px] sm:gap-[30px] gap-[5px]  relative">
           {filteredProjects.map((project, index) => (
             <div key={index} className="relative bg-black">
               <a href={project.link}>
@@ -125,7 +119,7 @@ const Project = () => {
                   alt={project.tittle}
                   className="w-full"
                 />
-                <h3 className="text-[16px] absolute bottom-0 left-0 bg-black text-white px-3 py-1 ">
+                <h3 className="sm:text-[16px] text-[14px] absolute bottom-0 left-0 bg-black text-white px-3 py-1 ">
                   {project.tittle}
                 </h3>
               </a>

@@ -77,7 +77,7 @@ const Skills = () => {
 
   return (
     <div
-      className="skills relative md:mt-[200px] max-md:mt-[100px] overflow-hidden"
+      className="skills relative sm:mt-[200px] mt-[60px] overflow-hidden"
       id="skills"
     >
       <div className="absolute left-0 top-0  w-[700px] -translate-x-[10%] ">
@@ -85,15 +85,15 @@ const Skills = () => {
       </div>
       <img
         src="https://i.ibb.co.com/v4C6z0w/pattern2.png"
-        className="absolute right-0 top-0 md:w-[200px] max-md:w-[100px]"
+        className="absolute right-0 top-0 sm:w-[200px] w-[80px]"
         alt=""
       />
       <div className="max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto relative ">
-        <h2 className="text-center w-[75%] mx-auto md:text-[60px] max-md:text-[30px] ">
-          These are some of the tools mastered by the author
+        <h2 className="text-center w-[75%] mx-auto sm:text-[60px] text-[26px] uppercase mx-auto w-fit border-b border-fuchsia-600">
+          MY SKILL
         </h2>
-        <div className="md:w-[80%] w-[95%] mx-auto mt-[50px] ">
-          <div className="text-center">
+        <div className="sm:w-[80%] w-[100%] mx-auto sm:mt-[50px] mt-[20px] ">
+          <div className="text-center sm:text-[16px] text-[12px]">
             <p className="px-4 inline-block mx-[8px] py-2 mt-[15px] text-white bg-[#251C31]">
               Web Development
             </p>
@@ -130,7 +130,7 @@ const Skills = () => {
             </p>
           </div>
         </div>
-        <div className="w-[90%] mx-auto text-center mt-[80px] icon_skill ">
+        <div className="sm:w-[90%]  w-full mx-auto text-center sm:mt-[80px] mt-[50px] icon_skill ">
           {/* looping data */}
           {dataLanguage.map((language, index) => (
             <div key={index} className="rounded-full bg-[#251C31] inline-block">
@@ -138,7 +138,7 @@ const Skills = () => {
                 <img
                   src={imageMap[language.gambar]}
                   alt={language.tittle}
-                  className="w-[90px] p-[20px]"
+                  className="sm:w-[90px] w-[60px] sm:p-[20px] p-[10px] "
                   data-tooltip-id="tooltips"
                   data-tooltip-content={language.tittle}
                 />

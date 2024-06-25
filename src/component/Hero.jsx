@@ -15,36 +15,36 @@ const Hero = () => {
         className="absolute left-0 top-0 -z-0 w-[1503px] -translate-x-[30%] -translate-y-[25%] "
         alt=""
       />
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8  md:pt-[150px] pt-[80px] relative ">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8  md:pt-[150px] sm:pt-[80px] pt-[50px] relative ">
         <div className="grid lg:grid-cols-2 sm:grid-cols-1 max-md:pt-[100px] max-sm:pt-[50px] ">
-          <div className="left h-full flex items-center justify-center ">
+          <div className="left h-full flex items-center lg:justify-center ">
             <div className="relative ">
-              <div className="slide-left">
-                <h1 className="uppercase relative md:text-[90px] text-[50px] max-sm:leading-[1.2] hero-text">
+              <div className="slide-left ">
+                <h1 className="uppercase  relative md:text-[90px] text-[40px] max-sm:leading-[1.2] hero-text">
                   Hello
                 </h1>
                 <img
                   src={vektor}
-                  className="absolute top-0 left-0 max-md:left-[25%] max-md:w-[250px] max-sm:-translate-x-1/2  z-0  -translate-y-[10%] "
+                  className="absolute sm:w-[80%]  top-0 left-0 max-md:left-[25%] max-sm:w-[190px] max-sm:-translate-x-1/2  z-0  max-sm:-translate-y-1/2 -translate-y-1/4"
                   alt=""
                 />
 
-                <h1 className="uppercase md:text-[90px] max-sm:leading-normal text-[50px] ">
-                  Everyone{" "}
+                <h1 className="uppercase md:text-[90px] max-sm:leading-[1.2] text-[40px]">
+                  Everyone
                 </h1>
-                <div className="relative md:h-[150px] h-[80px] max-sm:leading-normal ">
-                  <h1 className="uppercase md:text-[90px]  text-[50px] max-md:relative absolute overflow-y-hidden z-20  text_wrap">
-                    I am Dico Aji{" "}
+                <div className="relative sm:h-[150px] h-[50px] max-sm:leading-[1.2]  ">
+                  <h1 className="uppercase md:text-[90px]  text-[40px] max-md:relative absolute overflow-y-hidden z-20  text_wrap">
+                    I am <span className="max-sm:text-[#f5ce62]">Dico Aji</span>
                   </h1>
                 </div>
-                <p className="text-[22px] about_me max-md:text-[16px] max-md:mt-[10px] ">
+                <p className="text-[18px] about_me max-md:text-[14px] max-md:mt-[10px] ">
                   Front End Developer, Web Developer, UI/UX Design
                 </p>
               </div>
-              <div className="mt-[40px] relative">
+              <div className="sm:mt-[40px] mt-[20px] relative">
                 <div className="relative">
                   <a href="https://drive.google.com/uc?export=download&id=1Hp2gjih5IYlWFBuXHs2W7sGP_9k6GrGZ">
-                    <button className="bn632-hover bn19 text-[16px] text-white cursor-pointer py-[10px] max-sm:py-[7px] px-[50px] max-sm:px-[30px] rounded-[50px] border-none">
+                    <button className="bn632-hover bn19 text-[16px] max-sm:text-[14px] text-white cursor-pointer sm:py-[10px] py-[7px] sm:px-[50px] px-[20px] sm:rounded-[50px] rounded-[20px] border-none">
                       Resume
                     </button>
                   </a>
@@ -52,7 +52,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="right block max-md:hidden ">
+          <div className="right block relative max-md:hidden ">
             <div className="relative ">
               <img
                 src={vektor1}
@@ -85,7 +85,7 @@ const Hero = () => {
                 <text>
                   <textPath
                     href="#curve"
-                    className="text-curve text-white uppercase text-[10.77px]"
+                    className="text-curve text-white uppercase lg:hidden text-[10.77px]"
                   >
                     🕸 Always in Process 🕸 100% Energy for you
                   </textPath>
@@ -98,14 +98,14 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="md:hidden block max-md:w-90%] mx-auto mt-[120px] max-md:mt-[100px] relative ">
+          <div className="md:hidden block max-md:w-[80%] mx-auto mt-[120px] max-md:mt-[70px] relative ">
             <img
-              src="https://i.ibb.co.com/M1ZSDHj/vektor1.png"
+              src={vektor1}
               className="absolute left-0 top-0 w-[80%] -z-10"
               alt=""
             />
             <img
-              src="https://i.ibb.co.com/M1ZSDHj/vektor1.png"
+              src={vektor1}
               className="absolute right-[10%] top-[15%] w-[18%] -z-10"
               alt=""
             />
@@ -123,7 +123,7 @@ const Hero = () => {
                 <text>
                   <textPath
                     href="#curve"
-                    className="text-curve text-white uppercase max-sm:text-[10.4px] text-[10.77px] rotate"
+                    className="text-curve text-white uppercase max-sm:text-[10.4px]  text-[10.77px] rotate"
                   >
                     🕸 Always in Process 🕸 100% Energy for you
                   </textPath>
@@ -131,11 +131,7 @@ const Hero = () => {
               </svg>
             </div>
 
-            <img
-              src="https://i.ibb.co.com/GCrqmsG/myphoto.png"
-              className="rounded-[500px] "
-              alt=""
-            />
+            <img src={hero} className="rounded-[500px] " alt="" />
           </div>
         </div>
         <img
