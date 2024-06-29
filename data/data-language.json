@@ -1,0 +1,113 @@
+{
+  "data_language": [
+    {
+      "tittle": "HTML",
+      "gambar": "html.png"
+    },
+    {
+      "tittle": "CSS",
+      "gambar": "css.png"
+    },
+    {
+      "tittle": "Javascript",
+      "gambar": "js.png"
+    },
+    {
+      "tittle": "Bootstrap",
+      "gambar": "bootstrap.png"
+    },
+    {
+      "tittle": "SASS",
+      "gambar": "sass.png"
+    },
+    {
+      "tittle": "Tailwind",
+      "gambar": "tailwind.png"
+    },
+    {
+      "tittle": "PHP",
+      "gambar": "php.png"
+    },
+    {
+      "tittle": "Python",
+      "gambar": "python.png"
+    },
+    {
+      "tittle": "Codeigniter",
+      "gambar": "codeigniter.png"
+    },
+    {
+      "tittle": "Laravel",
+      "gambar": "laravel.png"
+    },
+    {
+      "tittle": "MySQL",
+      "gambar": "mysql.png"
+    },
+    {
+      "tittle": "Node JS",
+      "gambar": "nodejs.png"
+    },
+    {
+      "tittle": "JQuery",
+      "gambar": "jquery.png"
+    },
+    {
+      "tittle": "React JS",
+      "gambar": "react.png"
+    },
+    {
+      "tittle": "Next JS",
+      "gambar": "nextjs.png"
+    },
+    {
+      "tittle": "Postman",
+      "gambar": "postman.png"
+    },
+    {
+      "tittle": "Adobe Photoshop",
+      "gambar": "photoshop.png"
+    },
+    {
+      "tittle": "Adobe XD",
+      "gambar": "xd.png"
+    },
+    {
+      "tittle": "Adobe Premiere",
+      "gambar": "premiere.png"
+    },
+    {
+      "tittle": "Figma",
+      "gambar": "figma.png"
+    },
+    {
+      "tittle": "Canva",
+      "gambar": "canva.png"
+    },
+    {
+      "tittle": "Git",
+      "gambar": "git.png"
+    },
+
+    {
+      "tittle": "Notion",
+      "gambar": "notion.png"
+    },
+    {
+      "tittle": "Microsoft Office",
+      "gambar": "microsoft-office.png"
+    },
+    {
+      "tittle": "Microsoft Word",
+      "gambar": "word.png"
+    },
+    {
+      "tittle": "Microsoft Excel",
+      "gambar": "excel.png"
+    },
+    {
+      "tittle": "Microsoft Power Point",
+      "gambar": "powerpoint.png"
+    }
+  ]
+}

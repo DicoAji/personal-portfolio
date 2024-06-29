@@ -1,0 +1,25 @@
+{
+  "experinece": [
+    {
+      "gambar": "https://i.ibb.co.com/590Ldpz/petugas-bps-2023.png",
+      "position": "Editing Coding",
+      "location": "Badan Pusat Statistika Grobogan",
+      "date": "July 2023 - August 2023",
+      "description": "Correct, tidy up and check the code and document contents of the agricultural census results in 2023. Input data that has been checked and corrected into Microsoft Excel with a time of one day 100 documents."
+    },
+    {
+      "gambar": "https://i.ibb.co.com/cb34mj7/meeting-studi-independent.png",
+      "position": "Machine Learning and Front End Web Independent Study Program ",
+      "location": "Dicoding Indonesia",
+      "date": "August 2022 - December 2022",
+      "description": "Study material comprehension 8 hours a day. Soft skills training class meetings (time management, personal productivity, communication skills, ethical behavior, networking, business presentation, personal branding). Complete coding assignments related to machine learning and web front end. "
+    },
+    {
+      "gambar": "https://i.ibb.co.com/KFWnvm0/photo-disdikbud.png",
+      "position": "Web Developer",
+      "location": "Dinas Pendidikan dan Kebudayaan Kabupaten Batang",
+      "date": "February 2022 - July 2022",
+      "description": "Brainstorming with the Dinas, how the flow and what features are presented in the Bandikmenti information system, an information system used as a forum for registering scholarships and managing data on the selection of Batang district scholarship recipients. Coordinate with members of the information system development team.  Create the interface of the Bandikmenti information system (UI/UX Design).  Develop interface design into a website-based Bandikmenti information system.  Conducting feasibility application tests. "
+    }
+  ]
+}

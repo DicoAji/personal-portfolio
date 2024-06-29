@@ -1,0 +1,108 @@
+{
+  "project": [
+    {
+      "kategori": "portfolio",
+      "tittle": "Personal Portfolio",
+      "link": "https://dicoaji.github.io/personal-portfolio/",
+      "linkgambar": "portfolio1.png"
+    },
+    {
+      "kategori": "portfolio",
+      "tittle": "Next Portfolio",
+      "link": "https://github.com/DicoAji/next.portfolio",
+      "linkgambar": "next-portfolio.png"
+    },
+    {
+      "kategori": "client project",
+      "tittle": "Bandikmenti Web",
+      "link": "https://bandikmenti.batangkab.go.id/",
+      "linkgambar": "bandikmenti.png"
+    },
+    {
+      "kategori": "other",
+      "tittle": "Personal Notes React App",
+      "link": "https://dicoaji.github.io/aplikasi-pencatatan-React.github.io/",
+      "linkgambar": "personal_notes.png"
+    },
+    {
+      "kategori": "portfolio",
+      "tittle": "Portfolio2",
+      "link": "https://dicoaji.github.io/dico-aji-resume/",
+      "linkgambar": "portfolio2.png"
+    },
+    {
+      "kategori": "portfolio",
+      "tittle": "Portfolio3",
+      "link": "https://dicoaji.github.io/portfolio3/",
+      "linkgambar": "portfolio3.png"
+    },
+    {
+      "kategori": "portfolio",
+      "tittle": "Portfolio4",
+      "link": "",
+      "linkgambar": "portfolio4.png"
+    },
+
+    {
+      "kategori": "client project",
+      "tittle": "Mau Lapor",
+      "link": "https://dicoaji.github.io/maulaporUI.github.io/",
+      "linkgambar": "maulapor.png"
+    },
+    {
+      "kategori": "other",
+      "tittle": "Bookshelf",
+      "link": "https://dicoaji.github.io/todolist.github.io/",
+      "linkgambar": "bookshelf.png"
+    },
+    {
+      "kategori": "self project",
+      "tittle": "Soree Cafe",
+      "link": "https://dicoaji.github.io/soree-cafe/",
+      "linkgambar": "soree-cafe.png"
+    },
+
+    {
+      "kategori": "self project",
+      "tittle": "Tutorify",
+      "link": "https://dicoaji.github.io/tutorify-interface/",
+      "linkgambar": "tutorify.png"
+    },
+    {
+      "kategori": "self project",
+      "tittle": "Attain",
+      "link": "https://dicoaji.github.io/attain-interface/",
+      "linkgambar": "attain.png"
+    },
+    {
+      "kategori": "self project",
+      "tittle": "Credia",
+      "link": "https://dicoaji.github.io/credia-interface/",
+      "linkgambar": "credia.png"
+    },
+    {
+      "kategori": "data analysis",
+      "tittle": "Anime Recomendation",
+      "link": "https://drive.google.com/file/d/1uWv8irCVvUyvURTLygoL9WkDgIHbjMgi/view?usp=sharing",
+      "linkgambar": "anime.png"
+    },
+    {
+      "kategori": "data analysis",
+      "tittle": "Orage Grapefruit Classification",
+      "link": "https://drive.google.com/file/d/17XKQZKLYnU2gkRfnVV6c5lxwt0gf1tuy/view?usp=sharing",
+      "linkgambar": "grapefruit_orange.png"
+    },
+    {
+      "kategori": "data analysis",
+      "tittle": "Liver Patient Prediction",
+      "link": "https://drive.google.com/file/d/129AUC3VKA6B2DJvKEyq3oKIJs_hbppvA/view?usp=sharing",
+      "linkgambar": "liver.png"
+    },
+    {
+      "kategori": "data analysis",
+      "tittle": "Rock Paper Scissor Detection",
+      "link": "https://drive.google.com/file/d/16qn6JsAIHpmF6wGLgo1KUCozNq5_iO1G/view?usp=sharing",
+      "linkgambar": "rps.png"
+    }
+  ]
+}
