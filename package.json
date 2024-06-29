@@ -24,6 +24,7 @@
     "countup.js": "^2.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-lazy-load-image-component": "^1.6.2",
     "react-tooltip": "^5.26.4",
     "react-typed": "^2.0.12",
     "scrollreveal": "^4.0.9"

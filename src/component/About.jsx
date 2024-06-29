@@ -1,10 +1,7 @@
-// import React from "react";
-// import pattern2 from "./../assets/img/pattern2.png";
-// import rounded from "./../assets/img/rounded.png";
-import ballpattern2 from "./../assets/img/pattern/ballpatternyellow2.svg";
-import ballpatternorange from "./../assets/img/pattern/ballpeternorange.svg";
-import lineRounded from "./../assets/img/line-rounded.png";
-import patternYelllow from "./../assets/img/pattern-yellow.png";
+import ballpattern2 from "./../../public/img/pattern/ballpatternyellow2.svg";
+import ballpatternorange from "./../../public/img/pattern/ballpeternorange.svg";
+import lineRounded from "./../../public/img/line-rounded.png";
+import patternYelllow from "./../../public/img/pattern-yellow.png";
 import "./css/About.css";
 import { useEffect, useRef } from "react";
 import { CountUp } from "countup.js";

@@ -1,41 +1,36 @@
-// import React from "react";
-import patternblue from "./../assets/img/pattern/ballpeternblue.svg";
-import patternorange from "./../assets/img/pattern/ballpeternorange.svg";
-
-// import ReactTooltip from "react-tooltip";
+import patternblue from "./../../public/img/pattern/ballpeternblue.svg";
+import patternorange from "./../../public/img/pattern/ballpeternorange.svg";
 import { Tooltip as ReactTooltip } from "react-tooltip";
-
 import "./css/Skills.css";
 import { useEffect, useState } from "react";
-import data from "./../assets/data/data-language.json";
-
-import htmlImg from "./../assets/img/icon-skill/html.png";
-import cssImg from "./../assets/img/icon-skill/css.png";
-import jsImg from "./../assets/img/icon-skill/js.png";
-import bootstrapImg from "./../assets/img/icon-skill/bootstrap.png";
-import sassImg from "./../assets/img/icon-skill/sass.png";
-import tailwindImg from "./../assets/img/icon-skill/tailwind.png";
-import phpImg from "./../assets/img/icon-skill/php.png";
-import pythonImg from "./../assets/img/icon-skill/python.png";
-import codeigniterImg from "./../assets/img/icon-skill/codeigniter.png";
-import laravelImg from "./../assets/img/icon-skill/laravel.png";
-import mysqlImg from "./../assets/img/icon-skill/mysql.png";
-import nodejsImg from "./../assets/img/icon-skill/nodejs.png";
-import jqueryImg from "./../assets/img/icon-skill/jquery.png";
-import reactImg from "./../assets/img/icon-skill/react.png";
-import nextImg from "./../assets/img/icon-skill/nextjs.png";
-import postmanImg from "./../assets/img/icon-skill/postman.png";
-import photoshopImg from "./../assets/img/icon-skill/photoshop.png";
-import xdImg from "./../assets/img/icon-skill/xd.png";
-import premiereImg from "./../assets/img/icon-skill/premiere.png";
-import figmaImg from "./../assets/img/icon-skill/figma.png";
-import canvaImg from "./../assets/img/icon-skill/canva.png";
-import gitImg from "./../assets/img/icon-skill/git.png";
-import notionImg from "./../assets/img/icon-skill/notion.png";
-import officeImg from "./../assets/img/icon-skill/microsoft-office.png";
-import wordImg from "./../assets/img/icon-skill/word.png";
-import excelImg from "./../assets/img/icon-skill/excel.png";
-import powerpointImg from "./../assets/img/icon-skill/powerpoint.png";
+import data from "./../../public/data/data-language.json";
+import htmlImg from "./../../public/img/icon-skill/html.png";
+import cssImg from "./../../public/img/icon-skill/css.png";
+import jsImg from "./../../public/img/icon-skill/js.png";
+import bootstrapImg from "./../../public/img/icon-skill/bootstrap.png";
+import sassImg from "./../../public/img/icon-skill/sass.png";
+import tailwindImg from "./../../public/img/icon-skill/tailwind.png";
+import phpImg from "./../../public/img/icon-skill/php.png";
+import pythonImg from "./../../public/img/icon-skill/python.png";
+import codeigniterImg from "./../../public/img/icon-skill/codeigniter.png";
+import laravelImg from "./../../public/img/icon-skill/laravel.png";
+import mysqlImg from "./../../public/img/icon-skill/mysql.png";
+import nodejsImg from "./../../public/img/icon-skill/nodejs.png";
+import jqueryImg from "./../../public/img/icon-skill/jquery.png";
+import reactImg from "./../../public/img/icon-skill/react.png";
+import nextImg from "./../../public/img/icon-skill/nextjs.png";
+import postmanImg from "./../../public/img/icon-skill/postman.png";
+import photoshopImg from "./../../public/img/icon-skill/photoshop.png";
+import xdImg from "./../../public/img/icon-skill/xd.png";
+import premiereImg from "./../../public/img/icon-skill/premiere.png";
+import figmaImg from "./../../public/img/icon-skill/figma.png";
+import canvaImg from "./../../public/img/icon-skill/canva.png";
+import gitImg from "./../../public/img/icon-skill/git.png";
+import notionImg from "./../../public/img/icon-skill/notion.png";
+import officeImg from "./../../public/img/icon-skill/microsoft-office.png";
+import wordImg from "./../../public/img/icon-skill/word.png";
+import excelImg from "./../../public/img/icon-skill/excel.png";
+import powerpointImg from "./../../public/img/icon-skill/powerpoint.png";
 
 const imageMap = {
   "html.png": htmlImg,

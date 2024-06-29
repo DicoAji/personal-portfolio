@@ -1,5 +1,4 @@
 import "./css/Navbar.css";
-import "./css/Hero.css";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState, useEffect } from "react";

@@ -1,26 +1,28 @@
-import ballpattern2 from "./../assets/img/pattern/ballpatternyellow2.svg";
-import bluered from "./../assets/img/pattern/bluered.svg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import ballpattern2 from "./../../public/img/pattern/ballpatternyellow2.svg";
+import bluered from "./../../public/img/pattern/bluered.svg";
 import "./css/Project.css";
 import { useEffect, useState } from "react";
-import data from "./../assets/data/project.json";
-import halfBall from "./../assets/img/half-ball.png";
-import bandikmenti from "./../assets/img/project/bandikmenti.png"; // dan seterusnya untuk setiap gambar yang Anda butuhkan
-import anime from "./../assets/img/project/anime.png";
-import bookshelf from "./../assets/img/project/bookshelf.png";
-import grapefruitOrange from "./../assets/img/project/grapefruit_orange.png";
-import liver from "./../assets/img/project/liver.png";
-import maulapor from "./../assets/img/project/maulapor.png";
-import personalNotes from "./../assets/img/project/personal_notes.png";
-import portfolio1 from "./../assets/img/project/portfolio1.png";
-import porfolio2 from "./../assets/img/project/portfolio2.png";
-import porfolio3 from "./../assets/img/project/portfolio3.png";
-import porfolio4 from "./../assets/img/project/portfolio4.png";
-import rps from "./../assets/img/project/rps.png";
-import attain from "./../assets/img/project/attain.png";
-import tutorify from "./../assets/img/project/tutorify.png";
-import nextPortfolio from "./../assets/img/project/next-portfolio.png";
-import credia from "./../assets/img/project/credia.png";
-import soreeCafe from "./../assets/img/project/soree-cafe.png";
+import data from "./../../public/data/project.json";
+import halfBall from "./../../public/img/half-ball.png";
+import bandikmenti from "./../../public/img/project/bandikmenti.png"; // dan seterusnya untuk setiap gambar yang Anda butuhkan
+import anime from "./../../public/img/project/anime.png";
+import bookshelf from "./../../public/img/project/bookshelf.png";
+import grapefruitOrange from "./../../public/img/project/grapefruit_orange.png";
+import liver from "./../../public/img/project/liver.png";
+import maulapor from "./../../public/img/project/maulapor.png";
+import personalNotes from "./../../public/img/project/personal_notes.png";
+import portfolio1 from "./../../public/img/project/portfolio1.png";
+import porfolio2 from "./../../public/img/project/portfolio2.png";
+import porfolio3 from "./../../public/img/project/portfolio3.png";
+import porfolio4 from "./../../public/img/project/portfolio4.png";
+import rps from "./../../public/img/project/rps.png";
+import attain from "./../../public/img/project/attain.png";
+import tutorify from "./../../public/img/project/tutorify.png";
+import nextPortfolio from "./../../public/img/project/next-portfolio.png";
+import credia from "./../../public/img/project/credia.png";
+import soreeCafe from "./../../public/img/project/soree-cafe.png";
 
 const images = {
   "bandikmenti.png": bandikmenti,
@@ -112,12 +114,13 @@ const Project = () => {
 
         <div className="max-md:w-[100%] max-md:mx-auto grid md:grid-cols-3 grid-cols-2 mt-[50px] sm:gap-[30px] gap-[5px]  relative">
           {filteredProjects.map((project, index) => (
-            <div key={index} className="relative bg-black">
+            <div key={index} className="relative bg-black ">
               <a href={project.link}>
-                <img
+                <LazyLoadImage
                   src={images[project.linkgambar]}
                   alt={project.tittle}
-                  className="w-full"
+                  effect="blur"
+                  className="block w-full "
                 />
                 <h3 className="sm:text-[16px] text-[14px] absolute bottom-0 left-0 bg-black text-white px-3 py-1 ">
                   {project.tittle}

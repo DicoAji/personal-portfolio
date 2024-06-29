@@ -1,18 +1,18 @@
-import vektor from "./../assets/img/vektor1.svg";
 import "./css/Hero.css";
-import "./css/Navbar.css";
-import pattern1 from "./../assets/img/pattern/ballpatternyellow.svg";
-import ballpeternblue from "./../assets/img/pattern/ballpeternblue.svg";
-import petternyellow from "./../assets/img/pattern/ballpatternyellow2.svg";
-import hero from "./../assets/img/hero.png";
-import vektor1 from "./../assets/img/vektor.png";
+import pattern1 from "./../../public/img/pattern/ballpatternyellow.svg";
+import ballpeternblue from "./../../public/img/pattern/ballpeternblue.svg";
+import hero from "./../../public/img/hero.png";
+import vektor1 from "./../../public/img/vektor.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Hero = () => {
   return (
     <div className="hero relative" id="hero">
-      <img
+      <LazyLoadImage
         src={pattern1}
-        className="absolute left-0 top-0 -z-0 w-[1503px] -translate-x-[30%] -translate-y-[25%] "
+        effect="blur"
+        className="absolute left-0 top-0 -z-0 w-[1503px] -translate-x-[30%] -translate-y-[55%] "
         alt=""
       />
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8  md:pt-[150px] sm:pt-[80px] pt-[50px] relative ">
@@ -23,18 +23,14 @@ const Hero = () => {
                 <h1 className="uppercase  relative md:text-[90px] text-[40px] max-sm:leading-[1.2] hero-text">
                   Hello
                 </h1>
-                <img
-                  src={vektor}
-                  className="absolute sm:w-[80%]  top-0 left-0 max-md:left-[25%] max-sm:w-[190px] max-sm:-translate-x-1/2  z-0  max-sm:-translate-y-1/2 -translate-y-1/4"
-                  alt=""
-                />
 
                 <h1 className="uppercase md:text-[90px] max-sm:leading-[1.2] text-[40px]">
                   Everyone
                 </h1>
-                <div className="relative sm:h-[150px] h-[50px] max-sm:leading-[1.2]  ">
+                <div className="relative sm:h-[150px] h-[50px] max-sm:leading-[1.2] z-20 ">
                   <h1 className="uppercase md:text-[90px]  text-[40px] max-md:relative absolute overflow-y-hidden z-20  text_wrap">
-                    I am <span className="max-sm:text-[#f5ce62]">Dico Aji</span>
+                    I am{" "}
+                    <span className="max-sm:text-[#f5ce62] z-20">Dico Aji</span>
                   </h1>
                 </div>
                 <p className="text-[18px] about_me max-md:text-[14px] max-md:mt-[10px] ">
@@ -52,23 +48,24 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="right block relative max-md:hidden ">
+          <div className="right block relative  max-md:hidden ">
             <div className="relative ">
               <img
                 src={vektor1}
-                className="absolute max-lg:hidden w-[400px] top-[50px] max-md:hidden -translate-x-[20px] -z-[1]"
+                className="absolute block max-lg:hidden w-[400px] top-[50px] max-md:hidden -translate-x-[20px] -z-10"
                 alt=""
               />
 
               <img
                 src={vektor1}
-                className="absolute w-[70px] max-lg:hidden translate-y-[60%] right-[28%] "
+                className="absolute block w-[70px] max-lg:hidden translate-y-[60%] right-[28%] -z-10"
                 alt=""
               />
-              <img
+              <LazyLoadImage
                 src={hero}
+                effect="blur"
                 className="absolute w-[550px] max-lg:hidden -translate-y-[50px] -translate-x-[70px] top-0 right-0 rounded-[550px] z-20"
-                alt=""
+                alt="Hero"
               />
             </div>
             <div className="relative">
@@ -99,13 +96,15 @@ const Hero = () => {
             </div>
           </div>
           <div className="md:hidden block max-md:w-[80%] mx-auto mt-[120px] max-md:mt-[70px] relative ">
-            <img
+            <LazyLoadImage
               src={vektor1}
+              effect="blur"
               className="absolute left-0 top-0 w-[80%] -z-10"
               alt=""
             />
-            <img
+            <LazyLoadImage
               src={vektor1}
+              effect="blur"
               className="absolute right-[10%] top-[15%] w-[18%] -z-10"
               alt=""
             />
@@ -131,20 +130,21 @@ const Hero = () => {
               </svg>
             </div>
 
-            <img src={hero} className="rounded-[500px] " alt="" />
+            <LazyLoadImage
+              effect="blur"
+              src={hero}
+              className="rounded-[500px] "
+              alt=""
+            />
           </div>
         </div>
-        <img
+        <LazyLoadImage
           src={ballpeternblue}
+          effect="blur"
           className="absolute -right-[40%] top-0 translate-y-[25%] w-[2400px]"
           alt=""
         />
       </div>
-      <img
-        src={petternyellow}
-        className="absolute right-0 top-0 -translate-y-[25%] w-[100vh] -z-10"
-        alt=""
-      />
     </div>
   );
 };

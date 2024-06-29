@@ -1,11 +1,10 @@
-// import React from "react";
-import ballpatternblue from "./../assets/img/pattern/ballpeternorange.svg";
-import patterngreen from "./../assets/img/pattern/patterngreen.svg";
+import ballpatternblue from "./../../public/img/pattern/ballpeternorange.svg";
+import patterngreen from "./../../public/img/pattern/patterngreen.svg";
 import "./css/Experience.css";
 import { useEffect, useState } from "react";
-import ball from "./../assets/img/ball.png";
-import data from "./../assets/data/experience.json";
-import patternBlue from "./../assets/img/pattern-blue.png";
+import ball from "./../../public/img/ball.png";
+import data from "./../../public/data/experience.json";
+import patternBlue from "./../../public/img/pattern-blue.png";
 
 const Experience = () => {
   const [dataExperience, setDataExperinece] = useState([]);
