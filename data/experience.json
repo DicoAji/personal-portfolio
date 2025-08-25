@@ -1,6 +1,13 @@
 {
   "experinece": [
     {
+      "gambar": "",
+      "position": "Civil Servant",
+      "location": "Dinas Pertanian Kabupaten Grobogan",
+      "date": "Mei 2023 - Present",
+      "description": "My position is Computer Administrator, assisting the Head of Sub-Section in managing data, creating Electricity SPJs, communications, helping with office equipment."
+    },
+    {
       "gambar": "https://i.ibb.co.com/590Ldpz/petugas-bps-2023.png",
       "position": "Editing Coding",
       "location": "Badan Pusat Statistika Grobogan",
