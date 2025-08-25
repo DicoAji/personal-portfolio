@@ -34,7 +34,7 @@ const Hero = () => {
                   </h1>
                 </div>
                 <p className="text-[18px] about_me max-md:text-[14px] max-md:mt-[10px] ">
-                  Front End Developer, Web Developer, UI/UX Design
+                  Civil Servant | Web Developer
                 </p>
               </div>
               <div className="sm:mt-[40px] mt-[20px] relative">

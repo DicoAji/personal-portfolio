@@ -59,25 +59,24 @@ const About = () => {
           <div className="grid lg:grid-cols-2 grid-flow-cols-1 ">
             <div className=" h-fit my-auto w-full">
               <h2 className="md:text-[60px] text-[26px] w-fit uppercase max-sm:mx-auto border-b border-fuchsia-600">
-                ABOOUT ME
+                ABOUT ME
               </h2>
             </div>
             <p className="sm:text-[16px] md:leading-[190%] text-[12px] text-justify mt-[80px] max-sm:mt-[50px]  ">
-              My name is Dico Aji Prasetyo, I am 22 years old, I come from
+              My name is Dico Aji Prasetyo, I'm 23 years old, and I come from
               Grobogan, Central Java. I graduated from Diponegoro University
-              majoring in Informatics. I have interest in website development,
-              UI/UX Design and Machine Learning development. I can work
-              independently or in a group. I am very interested in getting
-              involved in innovative projects that leverage the latest
-              technology to increase efficiency and create impactful solutions.
-              I am passionate and committed to developing my career in the world
-              of technology. I believe that collaboration is the key to
-              achieving extraordinary results in any project.
+              majoring in Informatics. I'm a civil servant at the Agriculture
+              Office of Grobogan Regency, Central Java, Indonesia. I'm also a
+              web developer with two years of experience. I'm also interested in
+              UI/UX design and machine learning development. I can work both
+              independently and in a team. I'm very interested in being involved
+              in innovative projects that utilize the latest technology to
+              improve efficiency and create impactful solutions.
             </p>
           </div>
           <img
             src={patternYelllow}
-            className="max-md:w-[70px] md:mt-[60px] max-md:mt-[50px]"
+            className="max-md:w-[70px] md:mt-[60px] max-md:mt-[50px] -z-10"
             alt=""
           />
         </div>
