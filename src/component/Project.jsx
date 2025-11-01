@@ -23,6 +23,8 @@ import tutorify from "./../../public/img/project/tutorify.png";
 import nextPortfolio from "./../../public/img/project/next-portfolio.png";
 import credia from "./../../public/img/project/credia.png";
 import soreeCafe from "./../../public/img/project/soree-cafe.png";
+import optimasi from "./../../public/img/project/optimasi.png";
+import kitasehat from "./../../public/img/project/kitasehat.png";
 
 const images = {
   "bandikmenti.png": bandikmenti,
@@ -42,6 +44,8 @@ const images = {
   "next-portfolio.png": nextPortfolio,
   "credia.png": credia,
   "soree-cafe.png": soreeCafe,
+  "optimasi.png": optimasi,
+  "kitasehat.png": kitasehat,
 };
 
 const Project = () => {

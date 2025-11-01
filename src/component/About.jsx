@@ -63,15 +63,19 @@ const About = () => {
               </h2>
             </div>
             <p className="sm:text-[16px] md:leading-[190%] text-[12px] text-justify mt-[80px] max-sm:mt-[50px]  ">
-              My name is Dico Aji Prasetyo, I'm 23 years old, and I come from
-              Grobogan, Central Java. I graduated from Diponegoro University
-              majoring in Informatics. I'm a civil servant at the Agriculture
-              Office of Grobogan Regency, Central Java, Indonesia. I'm also a
-              web developer with two years of experience. I'm also interested in
-              UI/UX design and machine learning development. I can work both
-              independently and in a team. I'm very interested in being involved
-              in innovative projects that utilize the latest technology to
-              improve efficiency and create impactful solutions.
+              I am Dico Aji Prasetyo, a Junior Web Developer and Informatics
+              alumnus from Universitas Diponegoro, currently contributing to
+              digital transformation within the Grobogan District Agriculture
+              Office. At 23, I bring two years of hands-on experience developing
+              high-efficiency web applications. My expertise is complemented by
+              a strong technical curiosity, specifically in UI/UX Design and
+              Machine Learning development. My background as a Civil Servant
+              provides a unique perspective on governmental needs, enabling me
+              to build solutions that are not only technically sound but also
+              politically and functionally effective. I excel in collaborative
+              settings and actively seek innovative projects that demand
+              creativity and utilize the latest technological advancements to
+              deliver significant impact.
             </p>
           </div>
           <img

@@ -1,6 +1,12 @@
 {
   "project": [
     {
+      "kategori": "client project",
+      "tittle": "Sisitem Optimasi Realisasi Anggaran",
+      "link": "https://dicoaji.github.io/optimasi-realisasi-anggaran/",
+      "linkgambar": "optimasi.png"
+    },
+    {
       "kategori": "portfolio",
       "tittle": "Personal Portfolio",
       "link": "https://dicoaji.github.io/personal-portfolio/",
@@ -23,6 +29,13 @@
       "tittle": "Personal Notes React App",
       "link": "https://dicoaji.github.io/aplikasi-pencatatan-React.github.io/",
       "linkgambar": "personal_notes.png"
+    },
+
+    {
+      "kategori": "client project",
+      "tittle": "Kita Sehat",
+      "link": "",
+      "linkgambar": "kitasehat.png"
     },
     {
       "kategori": "portfolio",

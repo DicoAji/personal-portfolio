@@ -125,7 +125,7 @@ const Footer = () => {
       </div>
       <div className="text-center sm:text-[14px] text-[12px] mt-[20px] border-t-[0.1px] border-slate-400 py-[5px]">
         {/* <p>This web build with react, tailwind</p> */}
-        <p>© 2024 Dico Aji Prasetyo™. All Rights Reserved.</p>
+        <p>© 2025 Dico Aji Prasetyo™. All Rights Reserved.</p>
       </div>
     </div>
   );
