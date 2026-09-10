@@ -2,6 +2,12 @@
   "project": [
     {
       "kategori": "client project",
+      "tittle": "Dinas Pertanian",
+      "link": "https://dispertan.grobogan.go.id/",
+      "linkgambar": "dispertan.png"
+    },
+    {
+      "kategori": "client project",
       "tittle": "Sisitem Optimasi Realisasi Anggaran",
       "link": "https://dicoaji.github.io/optimasi-realisasi-anggaran/",
       "linkgambar": "optimasi.png"
