@@ -69,7 +69,7 @@ const Project = () => {
   });
   return (
     <div className="project relative w-full overflow-hidden " id="project">
-      <div className=" max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[150px] max-md:mt-[60px] relative w-full ">
+      <div className=" max-w-6xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[150px] max-md:mt-[60px] relative w-full ">
         <h2 className="md:text-[60px] max-md:text-[26px] text-center uppercase border-b border-fuchsia-600 w-fit mx-auto">
           MY PROJECT
         </h2>

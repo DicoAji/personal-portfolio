@@ -54,7 +54,7 @@ const About = () => {
           alt=""
         />
       </div>
-      <div className=" max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[200px] max-md:mt-[100px] relative ">
+      <div className=" max-w-6xl px-2 sm:px-6 lg:px-8 mx-auto md:mt-[200px] max-md:mt-[100px] relative ">
         <div className="relative">
           <div className="grid lg:grid-cols-2 grid-flow-cols-1 ">
             <div className=" h-fit my-auto w-full">
@@ -65,7 +65,7 @@ const About = () => {
             <p className="sm:text-[16px] md:leading-[190%] text-[12px] text-justify mt-[80px] max-sm:mt-[50px]  ">
               My name is Dico Aji Prasetyo, S.Kom, I come from Kradenan,
               Grobogan, Central Java. I am an Informatics graduate from
-              Diponegoro University. I am currently 23 years old and I work at
+              Diponegoro University. I am currently 24 years old and I work at
               the Department of Agriculture Grobogan, Central Java as a Computer
               Technician. I bring two years of experience in developing web
               applications. My skills are complemented by a strong technical

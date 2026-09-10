@@ -15,7 +15,7 @@ const Experience = () => {
 
   return (
     <div
-      className="experience relative max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto md:pt-[200px] max-md:pt-[60px]  "
+      className="experience relative max-w-6xl px-2 sm:px-6 lg:px-8 mx-auto md:pt-[200px] max-md:pt-[60px]  "
       id="experience"
     >
       <div className="relative">
