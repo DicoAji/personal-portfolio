@@ -25,6 +25,7 @@ import credia from "./../../public/img/project/credia.png";
 import soreeCafe from "./../../public/img/project/soree-cafe.png";
 import optimasi from "./../../public/img/project/optimasi.png";
 import kitasehat from "./../../public/img/project/kitasehat.png";
+import dispertan from "./../../public/img/project/dispertan.png";
 
 const images = {
   "bandikmenti.png": bandikmenti,
@@ -46,6 +47,7 @@ const images = {
   "soree-cafe.png": soreeCafe,
   "optimasi.png": optimasi,
   "kitasehat.png": kitasehat,
+  "dispertan.png": dispertan,
 };
 
 const Project = () => {
